@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="200px" src="./logo.jpg" />
+  <img width="200px" src="./logo.png" />
 </p>
 <h1 align="center"> DinaForm </h1>
 <p align="center">Vue Dynamic Form based on JSON Schema</p>
