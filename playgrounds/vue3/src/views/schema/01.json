@@ -1,0 +1,50 @@
+{
+  "type": "object",
+  "ui-form-props": {
+    "label-position": "top"
+  },
+  "properties": {
+    "object1": {
+      "title": "嵌套对象1",
+      "type": "object",
+      "properties": {
+        "objectKey_1": {
+          "title": "输入框",
+          "type": "string",
+          "ui-widget": "input",
+          "ui-grid-props": {
+            "span": 8
+          }
+        },
+        "objectKey_2": {
+          "title": "数字输入框",
+          "type": "number",
+          "ui-widget": "input-number",
+          "min": 2,
+          "required": true,
+          "ui-grid-props": {
+            "span": 8
+          }
+        }
+      }
+    },
+    "object2": {
+      "title": "嵌套对象2",
+      "type": "object",
+      "ui-widget": "object-card",
+      "properties": {
+        "objectKey_1": {
+          "title": "输入框",
+          "type": "string",
+          "ui-widget": "input",
+          "required": true
+        },
+        "objectKey_2": {
+          "title": "数字输入框",
+          "type": "number",
+          "ui-widget": "input-number"
+        }
+      }
+    }
+  }
+}
