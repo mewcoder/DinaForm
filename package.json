@@ -5,6 +5,7 @@
     "dev:docs": "pnpm run --filter ./docs  dev",
     "dev:3": "pnpm run --filter ./playgrounds/vue3 dev",
     "build": "pnpm run --filter ./packages/** -r build",
+    "build:3": "pnpm build && pnpm run --filter ./playgrounds/vue3 build-only",
     "changeset": "changeset",
     "version-packages": "changeset version",
     "release": "pnpm build && pnpm release:only",
